@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Servlets lab</h1>
+        <p>This Java web project is <i>not</i> an example of how to write good code!
+            It does not connect to any APIs or databases.
+            It is solely an aid to help you learn the anatomy of Java web apps and how to deploy them to containers!
+        </p>
+        <h2>Demo servlet</h2>
+        <p><a href="DemoServlet">Demo servlet (does nothing)</a></p>
+        <h2>Calculator</h2>
+        <p>Form to generate input for calculator</p>
+        <form method="GET" action="CalculatorServlet">
+            <p>x = <input type="text" name="x" value="0" /></p>
+            <p>y = <input type="text" name="y" value="0" /></p>
+            <p>
+                <select name="action">
+                    <option value="add">+</option>
+                    <option value="subtract">-</option>
+                    <option value="multiply">*</option>
+                    <option value="divide">/</option>
+                </select>
+            </p>
+            <p><input type="submit" value="=" /></p>
+        </form>
+    </body>
+</html>
